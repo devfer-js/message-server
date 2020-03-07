@@ -1,0 +1,22 @@
+{
+  "name": "message-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "twilio": "^3.40.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
